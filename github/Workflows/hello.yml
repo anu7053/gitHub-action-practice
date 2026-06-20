@@ -1,0 +1,21 @@
+# Workflows
+Should have name
+name: hello
+on: 
+  workflow_dispatch:
+  
+# Jobs
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    # efermal container will execute
+    steps:
+      -name: say hello to everyone
+       run: echo "hello dosto"
+Should be inside the workflows
+
+# Setup
+Should be in side in jobs
+
+# Action
+Should be inside the steps
